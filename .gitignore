@@ -4,3 +4,10 @@
 .env
 .env.*
 !.env.example
+
+# Local ESP-IDF SDK, toolchains, and generated build files
+.tools/
+build/
+sdkconfig
+sdkconfig.old
+managed_components/
